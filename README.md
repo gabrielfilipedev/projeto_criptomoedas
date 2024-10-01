@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Projeto Criptomoeda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Utilizando **React**, **TypeScript** e **CSS**, desenvolvi um projeto de estudo chamado **Criptomoeda**. Este projeto se integra a uma API externa para fornecer valores de mercado em tempo real para diversas criptomoedas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Visão Geral**: Apresenta dados importantes, como:
+  - Nome da moeda
+  - Valor de mercado
+  - Preço atual
+  - Volume
+  - Variação de 24 horas
 
-## Expanding the ESLint configuration
+- **Pesquisa Personalizada**: Facilita a localização de informações sobre criptomoedas preferidas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Este projeto me proporcionou a oportunidade de aplicar meus conhecimentos de React.js e TypeScript, enquanto exploro o mundo das criptomoedas e a integração de APIs externas no desenvolvimento web.
